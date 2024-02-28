@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+
+</head>
+<body>
+    <div id="dv1">
+
+    </div>
+        <style>
+            #dv1{
+                width: 100px;
+                height: 100px;
+                border: 1px solid #000;
+                background-color: #f00;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+        </style>
+        <script>
+            var direcaoX;
+            var direcaoY;
+            var positionX;
+            var positionY;
+            var obj;
+            var temp;
+            var velocit;
+
+            function iniciar(){
+                direcaoX = 0;
+                direcaoY = 0;
+                positionX = 0;
+                positionY = 0;
+                obj = document.getElementById("dv1");
+                document.addEventListener("keydown", teclaDw);
+                document.addEventListener("keyup", teclaUp);
+                temp =  setInterval(etenterFrame, 20);
+                velocit = 10;
+            }
+            function teclaDw(){
+                var tecla = event.keyCode;
+                if(tecla == 37){
+                    direcaoX = -1;
+                } else if(tecla == 87) {
+                    direcaoY = -1;
+                } else if (tecla == 68) {
+                    direcaoX = 1;
+                } else if(){
+                    direcaoY = 1;
+                }
+
+            }
+        </script>
+   
+</body>
+</html>
