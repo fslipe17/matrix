@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.container{
+    width: 200px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 6px;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 100px;
+    background: linear-gradient(to bottom, black, yellow, black);
+}
+
+h1{
+    display: block;
+    margin-top: 20px;
+    margin-left: 780px;
+    width: 20%;
+    height: 5%;
+    flex-direction: column;
+    
+}
+.resultado{
+    background: linear-gradient(to bottom, black 10%, yellow, black 10%);
+    color: azure;
+    font-size: 12px;
+    border: 1px black solid;
+    border-radius: 4px;
+}
