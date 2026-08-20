@@ -6,7 +6,7 @@ O jogador é representado por um quadrado azul e pode se movimentar pelo labirin
 
 Este projeto foi desenvolvido por fslipe17.
 
-Projeto em desemvolvimento...
+Projeto em desenvolvimento...
 
 # LICENÇA
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
